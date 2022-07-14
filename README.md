@@ -29,12 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-![/images/product .png](./screenshot.jpg)
+(/images/product.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://m0lt0.github.io/simple-product-preview/)
+- Solution URL: (https://your-solution-url.com)
+- Live Site URL: (https://m0lt0.github.io/simple-product-preview/)
 
 ## My process
 
