@@ -1,19 +1,29 @@
-@import url(https://fonts.google.com/specimen/Montserrat);
-@import url(https://fonts.google.com/specimen/Fraunces);
-body {
-  padding: 0;
+html {
   margin: 0;
-  scroll-behavior: smooth;
+  padding: 0;
   background-color: hsl(30, 38%, 92%);
-  font-family: "Montserrat", "Fraunces", "sans-serif";
-  display: flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  font-family: Montserrat, Fraunces, "sans-serif";
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.card-content {
+  border: 2px solid red;
+  margin: auto;
 }
 .card {
   width: 500px;
   border-radius: 5px;
   display: flex;
-  margin: 100px auto;
+  align-items: center;
+  justify-content: center;
 }
+
 .product-img {
   display: flex;
   flex-wrap: wrap;
@@ -56,9 +66,8 @@ p {
   height: 70px;
   text-align: left;
   font-weight: 700;
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-family: "Fraunces", serif;
+  font-size: 21px;
+  font-family: Fraunces, sans-serif;
 }
 .add-to-cart {
   background-color: hsl(158, 36%, 37%);
@@ -91,8 +100,8 @@ p {
   display: flex;
   color: hsl(158, 36%, 37%);
   font-size: 20px;
-  font-family: "Fraunces", "serif", "sans-serif";
   font-weight: 700;
+  font-family: "Public Sans", sans-serif;
 }
 .old-price {
   color: hsl(228, 12%, 48%);
@@ -109,4 +118,8 @@ p {
   color: hsl(228, 45%, 44%);
   font-size: 11px;
   text-align: center;
+}
+footer {
+  margin-left: auto;
+  margin-right: auto;
 }
